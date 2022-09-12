@@ -19,7 +19,7 @@ import { ContatoComponent } from './views/contato/contato.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './views/login/login.component';
-import { AuthService } from './views/login/auth.service';
+
 
 
 
@@ -31,7 +31,8 @@ import { AuthService } from './views/login/auth.service';
     ContatoComponent,
     HeaderComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+   
 
   ],
   imports: [
@@ -44,7 +45,7 @@ import { AuthService } from './views/login/auth.service';
     ReactiveFormsModule,
     FormsModule
   ],
-  providers: [AuthService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

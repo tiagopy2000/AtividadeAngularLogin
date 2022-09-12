@@ -108,10 +108,11 @@ footer {
 
 .teste12345 {
     padding-bottom: 5px;
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(51, 4, 114);
     box-shadow: 30cm;
     border-radius: 50px;
 transition: transform .3s;
+margin: 30px;
 
 }
 
@@ -122,11 +123,20 @@ transition: transform .3s;
 
 .Pfont {
     font-size: 30px;
+    
 }
 
+.Pfont p {
+    color: white;
+    
+}
 .fontpt{
     font-size: 20px;
     font-family: sans-serif;
+}
+
+.fontpt p{
+    color: white;
 }
 
 .mat-raised-button{
@@ -136,3 +146,4 @@ transition: transform .3s;
     
     
 }
+
